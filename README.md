@@ -22,5 +22,28 @@ and
 4. | yn+1 |      | c   d |   | yn |     | f |
 
 
-Out of all the most used notation is the third one. We  can get IFSs similar to 3 notation or they can be derived from different forms as below
+Out of all the most used notation is the third one. Many IFSs are available in similar format to the 3 notation or they can be derived from different forms as below
+
+![Capture](https://user-images.githubusercontent.com/37890718/114451965-84120b80-9bf5-11eb-92a8-e04e05b84c99.PNG)
+
+
+Deterministic:
+![Capture1](https://user-images.githubusercontent.com/37890718/114452267-e2d78500-9bf5-11eb-85c0-24fd4b97fbd1.PNG)
+
+random iteration:
+![Capture2](https://user-images.githubusercontent.com/37890718/114452284-e834cf80-9bf5-11eb-90db-368157db850d.PNG)
+
+So all the details we need to generate afrctal image are values of a,b,c,d,e,f while using determininstic algorithm and probabilities in addition while using random iteration algorithm. We recommend users to get a good picture working of ifs or format of ifs before continuing further.
+
+#How to use 
+First initialize IFS object and pass IFSs method AddEquations in the below format:
+object = IFS()
+eqns=[[a1,b1,c1,d1,e1,f1],#probabilities should be added f u intent to use random iteration algorithm [[a1,b1,c1,d1,e1,f1,p1],[a2,b2,c2,d2,e2,f2,p2],...[an,bn,cn,dn,en,fn,pn]]
+[a2,b2,c2,d2,e2,f2],
+.
+.
+.
+[an,bn,cn,dn,en,fn]]
+object.AddEquations(eqns)
+beta kkada nunchi esei
 
