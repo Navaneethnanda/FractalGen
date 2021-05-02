@@ -8,17 +8,15 @@ Fractal-gen is a open library which can be used to generate, experiment and crea
  
  There are many ways of describing the affine transformations for iterated functions systems (IFS) which are as follows:
 
-1. x = r cos(θ) x + s sin(θ) y + h <br />
- y = -r sin(θ) x + s cos(θ) y + k<br />
+<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eqn1.svg" width=250 />
+<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eqn4.svg" width=250 />
+and
 
-and <br />
+<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eq2.svg" width=250 />
+<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eqn3.svg" width=250 />
+and
 
-2. xn+1 = a xn + b yn + c<br />
- yn+1 = d xn + e yn + f<br />
-
-and <br />
-
-<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/CodeCogsEqn.svg" height=400 width=400 />
+<img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/CodeCogsEqn.svg" width=350 />
 
 Out of all the most used notation is the third one. Many IFSs are available in similar format to the 3 notation or they can be derived from different forms to the 3rd one some of mostly used notations are below
 
