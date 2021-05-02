@@ -1,12 +1,10 @@
 # Fractal-gen
-Fractal-gen is a open library which can be used to generate, experiment and create fractal images using IFSs. IFSs are Iterated Function Systems which are used in one of the methods in constructing fractals. IFSs are simply set of Affine equations upon which we apply different algorithms to generate fractal images. For further more detailed explanation on IFSs and their workings we recommend users to go through these links below:
-1. http://paulbourke.net/fractals/ifs/
-2. https://larryriddle.agnesscott.org/ifs/ifs.htm
-3. https://www.sciencedirect.com/book/9780120790616/fractals-everywhere
+Fractal-gen is a open library which can be used to generate, experiment and create fractal images using IFS'. IFS' are Iterated Function Systems which are used in one of the methods in constructing fractals. IFS' are simply set of Affine equations upon which we apply different algorithms to generate fractal images. For further more detailed explanation on IFS' and their workings we recommend users to go through these links below:
+- ![Macintosh IFS manual - Written by Paul Bourke](http://paulbourke.net/fractals/ifs/)
+- ![Classic Iterated Function Systems - Larry Riddle](https://larryriddle.agnesscott.org/ifs/ifs.htm)
+- ![Fractals everywhere - MICHAEL F. BARNSLEY](https://www.sciencedirect.com/book/9780120790616/fractals-everywhere)
 
- Out of many algorithms which generate fractals, our library generates fractals based on Deterministic and Random Iteration algorithms. 
- 
- There are many ways of describing the affine transformations for iterated functions systems (IFS) which are as follows:
+ Out of many algorithms which generate fractals, our library generates fractals based on Deterministic and Random Iteration algorithms. There are notaions of affine transformations for iterated functions systems (IFS) which are as follows:
 
 <img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eqn1.svg" width=250 />
 <img src="https://github.com/Navaneethnanda/fractal-gen/blob/main/imgs/eqn4.svg" width=250 />
@@ -24,6 +22,7 @@ Out of all the most used notation is the third one. Many IFSs are available in s
 
 
 ### Deterministic:
+Tabular representation of values `a`, `b`, `c`, `d`, `e`, `f` of 4 Affine transformations.
 
 |       |     a |     b |     c |     d |   e |   f |
 |:------|------:|------:|------:|------:|----:|----:|
@@ -34,6 +33,7 @@ Out of all the most used notation is the third one. Many IFSs are available in s
 
 
 ### random iteration:
+Tabular representation of values `a`, `b`, `c`, `d`, `e`, `f`, `p` of 4 Affine transformations.
 
 |       |     a |     b |     c |    d |   e |    f |   probability |
 |:------|------:|------:|------:|-----:|----:|-----:|--------------:|
@@ -42,7 +42,7 @@ Out of all the most used notation is the third one. Many IFSs are available in s
 | set 3 | -0.15 |  0.28 |  0.26 | 0.24 |   0 | 0.44 |          0.07 |
 | set 4 |  0.85 |  0.04 | -0.04 | 0.85 |   0 | 1.6  |          0.85 |
 
-So all the details we need to generate fractal image are values of a,b,c,d,e,f of an affine traformation in a IFS while using deterministic algorithm and probabilities in addition while using random iteration algorithm. We recommend users to get a good picture on working of IFSs and representations of IFSs before continuing further.
+So all the details we need to generate fractal image are values of `a`, `b`, `c`, `d`, `e`, `f` of an affine traformation in a IFS while using deterministic algorithm and probabilities in addition while using random iteration algorithm. We recommend users to get a good picture on working of IFS' and representations of IFSs before continuing further.
 
 # How to use 
 
