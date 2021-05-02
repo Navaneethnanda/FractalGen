@@ -24,9 +24,11 @@ Out of all the most used notation is the third one. Many IFSs are available in s
 
 
 Deterministic:
+
 ![Capture1](https://user-images.githubusercontent.com/37890718/114452267-e2d78500-9bf5-11eb-85c0-24fd4b97fbd1.PNG)
 
 random iteration:
+
 ![Capture2](https://user-images.githubusercontent.com/37890718/114452284-e834cf80-9bf5-11eb-90db-368157db850d.PNG)
 
 So all the details we need to generate fractal image are values of a,b,c,d,e,f of an affine traformation in a IFS while using deterministic algorithm and probabilities in addition while using random iteration algorithm. We recommend users to get a good picture on working of IFSs and representations of IFSs before continuing further.
