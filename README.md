@@ -44,6 +44,16 @@ Tabular representation of values `a`, `b`, `c`, `d`, `e`, `f`, `p` of 4 Affine t
 
 So all the details we need to generate fractal image are values of `a`, `b`, `c`, `d`, `e`, `f` of an affine traformation in a IFS while using deterministic algorithm and probabilities in addition while using random iteration algorithm. We recommend users to get a good picture on working of IFS' and representations of IFSs before continuing further.
 
+# Installation
+- ### Using `pip` to install.
+  ```
+  pip install FractalGen
+  ```
+- ### Installing from whl file.
+  ```
+  pip install FractalGen-0.2-py3-none-any.whl
+  ```
+
 # How to use 
 
 ### How to create a `IFS` object and adding eqns.
