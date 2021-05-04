@@ -51,6 +51,7 @@ So all the details we need to generate fractal image are values of `a`, `b`, `c`
   pip install FractalGen
   ```
 - ### Installing from whl file.
+  The latest *.whl* is in [FractalGen/build](https://github.com/Navaneethnanda/FractalGen/tree/main/build). To install the latest version use the below command.
   ```
   pip install FractalGen-0.2-py3-none-any.whl
   ```
