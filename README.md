@@ -1,5 +1,5 @@
 # FractalGen
-Fractal-gen is a open library which can be used to generate, experiment and create fractal images using IFS'. IFS' are Iterated Function Systems which are used in one of the methods in constructing fractals. IFS' are simply set of Affine equations upon which we apply different algorithms to generate fractal images. For further more detailed explanation on IFS' and their workings we recommend users to go through these links below:
+**FractalGen** is a open library which can be used to generate, experiment and create fractal images using IFS'. IFS' are Iterated Function Systems which are used in one of the methods in constructing fractals. IFS' are simply set of Affine equations upon which we apply different algorithms to generate fractal images. For further more detailed explanation on IFS' and their workings we recommend users to go through these links below:
 - [Macintosh IFS manual - Written by Paul Bourke](http://paulbourke.net/fractals/ifs/)
 - [Classic Iterated Function Systems - Larry Riddle](https://larryriddle.agnesscott.org/ifs/ifs.htm)
 - [Fractals everywhere - MICHAEL F. BARNSLEY](https://www.sciencedirect.com/book/9780120790616/fractals-everywhere)
