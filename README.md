@@ -46,6 +46,7 @@ So all the details we need to generate fractal image are values of `a`, `b`, `c`
 
 # Installation
 - ### Using `pip` to install.
+  You can find our project on [PyPi `FractalGen`](https://pypi.org/project/FractalGen/)
   ```
   pip install FractalGen
   ```
